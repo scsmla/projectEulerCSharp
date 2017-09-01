@@ -67,7 +67,7 @@ namespace ProjectEuler
                     tempProduct = 1;
                 }
             }
-            Console.WriteLine(greatestProduct);
+           
             tempProduct = 1;
             for(int column  = 0; column < 20; column ++)
             {
@@ -86,7 +86,7 @@ namespace ProjectEuler
                     tempProduct = 1;
                 }
             }
-            Console.WriteLine(greatestProduct);
+           
             tempProduct = 1;
             for(int row = 0; row < 20; row ++)
             {
@@ -122,7 +122,7 @@ namespace ProjectEuler
                     tempProduct = 1;
                 }
             }
-            Console.WriteLine(greatestProduct);
+           
 
             Console.WriteLine("The greatest product is :{0} from the coordinate {1}:{2}",greatestProduct, xCoordinate, yCoordinate);
             Console.ReadLine();
